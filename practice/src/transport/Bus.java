@@ -16,6 +16,7 @@ public class Bus {
 		passenger++; //승객수 1증가
 	}
 	
+	//버스의 정보를 출력하는 메서드
 	public void busInfo() {
 		System.out.println(busNumber + "번 버스의 수입은 " + money +
 				"원이고, 승객 수는 " + passenger + " 명입니다.");
