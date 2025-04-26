@@ -1,4 +1,4 @@
-package reference;
+package reference.circle;
 
 public class Circle {
 	Point center;  //Point 자료형 참조 - 중심점
@@ -20,6 +20,6 @@ public class Circle {
 	//원의 정보 출력
 	public void showCircleInfo() {
 		System.out.println("원의 중심은 (" + center.getx() + ", " +
-				center.getY() + ")이고, 반지름은 " + radius
+				center.getY() + ")이고, 반지름은 " + radius)
 	}
 }
