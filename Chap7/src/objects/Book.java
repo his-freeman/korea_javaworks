@@ -34,14 +34,14 @@ public class Book {
 		return bookNumber + ", " + bookTitle;
 	}
 
-	@Override
+	/*@Override
 	public boolean equals(Object obj) {
 		//instanceof - 클래스의 객체(인스턴스)인지 확인 사용
 		if(obj instanceof Book) {
 			Book book = (Book)obj; //강제 타입 변환
 			if(this.bookNumber == book.bookNumber)
 				return true;
-		}
+		}*/
 		
 		return false;
 	}
